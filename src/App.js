@@ -1,12 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Container from './components/Container';
 import './App.css';
 
-function App() {
+
+
+
+const App = () => {
   return (
-    <div className="App">
-     hello react
+    <div>
+      <Header/>
+      <Container/>
+      <Footer/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
